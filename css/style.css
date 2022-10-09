@@ -1,0 +1,374 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+.project {
+  border: 4px solid black;
+  width: 825px;
+  margin: 50px auto;
+}
+.project-title {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: antiquewhite;
+  padding: 15px;
+  position: relative;
+}
+img {
+  height: 260px;
+  width: 260px;
+}
+/* product information */
+.price {
+  font-size: 24px;
+}
+.shipping {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+  margin-bottom: 20px;
+}
+.more-info:link,
+.more-info:active {
+  color: black;
+}
+.more-info:hover,
+.more-info:visited {
+  text-decoration: none;
+}
+/* product details */
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+.details-list {
+  list-style: square;
+  margin-left: 20px;
+}
+.details-list li {
+  margin-bottom: 10px;
+}
+/*botton*/
+.add-card {
+  background-color: black;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border: 4px solid black;
+}
+.add-card:hover {
+  color: black;
+  background-color: white;
+}
+.sale {
+  color: #fff;
+  background-color: red;
+  width: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: center;
+  padding: 6px;
+  position: absolute;
+  top: 37px;
+  left: 317px;
+}
+.color {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+.color-red1 {
+  background-color: red;
+}
+.blue1 {
+  background-color: blue;
+}
+.yellow1 {
+  background-color: yellow;
+}
+.green1 {
+  background-color: pink;
+}
+.brown1 {
+  background-color: brown;
+}
+.black1 {
+  background-color: black;
+}
+
+/*secont-level margin-float*/
+
+.project2 {
+  border: 4px solid black;
+  width: 825px;
+  margin: 50px auto;
+}
+.project-title2 {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: antiquewhite;
+  padding: 15px;
+  position: relative;
+}
+img {
+  height: 250px;
+  width: 250px;
+}
+/*to colored background. with float it does not have sixe. so here is an easy wat to fix it */
+
+.clearfix-content::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container {
+  background-color: rgb(192, 210, 210);
+}
+
+/* end to colored background. with float it does not have sixe. so here is an easy wat to fix it */
+
+/* product information */
+.price2 {
+  font-size: 24px;
+  float: left;
+}
+.shipping2 {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+  margin-bottom: 20px;
+  float: right;
+  margin-top: 6px;
+}
+.ready {
+  clear: both;
+}
+.more-info2:link,
+.more-info2:active {
+  color: black;
+}
+.more-info2:hover,
+.more-info2:visited {
+  text-decoration: none;
+}
+/* product details */
+.details-title2 {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+.details-list2 {
+  list-style: square;
+  margin-left: 20px;
+}
+.details-list2 li {
+  margin-bottom: 10px;
+}
+/*botton*/
+.add-card2 {
+  background-color: black;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border: 4px solid black;
+}
+.add-card2:hover {
+  color: black;
+  background-color: white;
+}
+
+.color2 {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+.color-red12 {
+  background-color: red;
+}
+.blue12 {
+  background-color: blue;
+}
+.yellow12 {
+  background-color: yellow;
+}
+.green12 {
+  background-color: pink;
+}
+.brown12 {
+  background-color: brown;
+}
+.black12 {
+  background-color: black;
+}
+.price-box {
+  width: 243px;
+  float: left;
+  margin-right: 40px;
+  padding-top: 30px;
+}
+.details-box {
+  width: 243px;
+  float: left;
+}
+.product-image {
+  float: left;
+  margin-right: 40px;
+}
+
+/* therd leveeeel flexbox*/
+
+.project23 {
+  border: 4px solid black;
+  width: 825px;
+  margin: 50px auto;
+}
+.project-title23 {
+  text-align: center;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: antiquewhite;
+  padding: 15px;
+  position: relative;
+}
+img {
+  height: 250px;
+  width: 250px;
+}
+/*to colored background. with float it does not have sixe. so here is an easy wat to fix it */
+
+/*.clearfix-content3::after {
+  content: "";
+  display: block;
+  clear: both;
+}*/
+.container3 {
+  background-color: rgb(192, 210, 210);
+  display: flex;
+  gap: 40px;
+}
+
+/* end to colored background. with float it does not have sixe. so here is an easy wat to fix it */
+
+/* product information */
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.price23 {
+  font-size: 24px;
+}
+
+.shipping23 {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+}
+
+.product-description {
+}
+.more-info2:link,
+.more-info2:active {
+  color: black;
+}
+.more-info23:hover,
+.more-info23:visited {
+  text-decoration: none;
+}
+/* product details */
+.details-title23 {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+.details-list23 {
+  list-style: square;
+  margin-left: 20px;
+}
+.details-list23 li {
+  margin-bottom: 10px;
+}
+/*botton*/
+.add-card23 {
+  background-color: black;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border: 4px solid black;
+}
+.add-card23:hover {
+  color: black;
+  background-color: white;
+}
+.product-colors {
+  display: flex;
+  gap: 10px;
+}
+
+.color23 {
+  width: 20px;
+  height: 20px;
+
+  margin-top: 30px;
+}
+.color-red123 {
+  background-color: red;
+}
+.blue123 {
+  background-color: blue;
+}
+.yellow123 {
+  background-color: yellow;
+}
+.green123 {
+  background-color: pink;
+}
+.brown123 {
+  background-color: brown;
+}
+.black123 {
+  background-color: black;
+}
+.price-box3 {
+  /* width: 243px;
+  float: left;*/
+  /*margin-right: 40px;*/
+  padding-top: 30px;
+  flex: 1;
+}
+.details-box3 {
+  /* width: 243px;
+  float: left; */
+  flex: 1;
+}
+.product-image3 {
+  /*float: left;*/
+  /*margin-right: 40px;*/
+}
